@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-        self.scan(/(\? |\. |\! |\.\z|\?\z )/).count
+        self.scan(/(\? |\. |\! |\.\z|\?\z)/).count
   end
 end
